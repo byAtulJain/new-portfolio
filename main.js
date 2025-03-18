@@ -413,7 +413,7 @@ const projects = [
 
         button1: {
             icon: "fas fa-play", // FontAwesome or custom icon class
-            text: "Comming Soon",
+            text: "Coming Soon",
             link: "#"
         },
         button2: {
