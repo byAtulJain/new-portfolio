@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atul Jain | Application Developer</title>
+    <meta name="description" content="Professional portfolio of Atul Jain, Application Developer specializing in web and mobile applications">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <svg viewBox="0 0 80 80">
+                <circle id="loader-circle" cx="40" cy="40" r="32"></circle>
+            </svg>
+            <div class="loader-text">Loading<span>.</span><span>.</span><span>.</span></div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">Portfolio<span class="highlight"></span></span>
+            </div>
+            <div class="nav-links">
+                <ul class="menu">
+                    <li><a href="#home" class="menu-item">Home</a></li>
+                    <li><a href="#about" class="menu-item">About</a></li>
+                    <li><a href="#projects" class="menu-item">Projects</a></li>
+                    <li><a href="#skills" class="menu-item">Skills</a></li>
+                    <li><a href="#contact" class="menu-item">Contact</a></li>
+                </ul>
+                <button class="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <canvas id="particle-canvas"></canvas>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-greeting animate-fade-up">Hello, I'm</div>
+                <h1 class="animate-fade-up">Atul <span class="highlight">Jain</span></h1>
+                <h2 class="animate-fade-up">
+                    <span id="typewriter"></span>
+                    <span class="cursor"></span>
+                </h2>
+                <p class="animate-fade-up">
+                    I create innovative applications that transform complex challenges into intuitive, responsive digital experiences.
+                </p>
+                <div class="hero-buttons animate-fade-up">
+                    <a href="https://play.google.com/store/apps/developer?id=byAtulJain" class="btn btn-primary">My Play Store</a>
+                    <a href="resume.pdf" class="btn btn-outline" download>Download CV</a>
+                </div>
+            </div>
+            <div class="hero-image animate-fade-left">
+                <div class="app-mockup">
+                    <div class="phone">
+                        <div class="phone-screen">
+                            <div class="app-ui">
+                                <div class="app-header">My Applications</div>
+
+                                <div class="app-content">
+                                    <div class="app-item">
+                                        <img src="images\app-logo\mandisetu.webp" alt="App Icon">
+                                        <p class="app-label">Mandisetu</p>
+                                      </div>
+                                      <div class="app-item"> 
+                                        <img src="images\app-logo\settledin.png" alt="App Icon">
+                                        <p class="app-label">SettledIn</p>
+                                      </div>
+                                    <div class="app-item">
+                                        <img src="images\app-logo\passcode.png" alt="App Icon">
+                                        <p class="app-label">Passcode <br>Vault</p>
+                                      </div>
+                                      <div class="app-item">
+                                        <img src="images\app-logo\acro-movie.webp" alt="App Icon">
+                                        <p class="app-label">Acro<br>Movie</p>
+                                      </div>
+                                      <div class="app-item"> 
+                                        <img src="images\app-logo\alertify.png" alt="App Icon">
+                                        <p class="app-label">Alertify</p>
+                                      </div>
+                                      <div class="app-item">
+                                        <img src="images\app-logo\kalpavriksha.png" alt="App Icon">
+                                        <p class="app-label">Kalpavriksha</p>
+                                      </div>
+                                                                                                                                                                                                                                    
+                                  </div>
+                                  
+                                <div class="app-nav"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-header">
+                <!-- <span class="section-subtitle">About Me</span> -->
+                <h2>Who I Am</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image reveal-left">
+                    <div class="image-container">
+                        <div class="image-overlay"></div>
+                        <img src="images\profile\profile.webp" alt="Atul Jain - Application Developer">
+                    </div>
+                    <!-- <div class="experience-badge">
+                        <span class="exp-years">5+</span>
+                        <span class="exp-text">Years of Experience</span>
+                    </div> -->
+                </div>
+                
+                <div class="about-text reveal-right">
+                    <h3>Passionate about Building Great Apps & Webs</h3>
+
+                    <p>
+                        I'm a passionate application developer with extensive experience crafting modern, robust digital products. My expertise spans across mobile app development, web applications, backend solutions, and UI/UX design to create intuitive, engaging experiences.
+                    </p>
+                    <p>
+                        My journey in technology began early, fueling my drive to master multiple disciplines. This diverse expertise allows me to tackle real-world challenges by seamlessly integrating innovative design, efficient development practices, and a user-centric approach.
+                    </p>
+                    
+                    <!-- <div class="about-info">
+                        <div class="info-item">
+                            <h4>Name:</h4>
+                            <p>Atul Jain</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>Email:</h4>
+                            <p>atul@example.com</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>Location:</h4>
+                            <p>New Delhi, India</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>Availability:</h4>
+                            <p>Freelance / Full-time</p>
+                        </div>
+                    </div> -->
+                    
+                    <!-- <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-text">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">30+</div>
+                            <div class="stat-text">Happy Clients</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-text">Awards Received</div>
+                        </div>
+                    </div> -->
+                    
+                    <a href="#contact" class="btn btn-primary">Let's Talk</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <div class="section-header">
+                <!-- <span class="section-subtitle">My Work</span> -->
+                <h2>Featured Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="ui">UI/UX</button>
+            </div>
+            
+            <div class="project-grid" id="project-grid">
+                <!-- Projects will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- App Showcase Section -->
+    <section id="app-showcase" class="app-showcase section-padding">
+        <div class="container">
+            <div class="section-header">
+                <!-- <span class="section-subtitle">App Showcase</span> -->
+                <h2>My Latest Application</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="showcase-content">
+                <div class="showcase-text reveal-left">
+                    <h3>Passcode Vault</h3>
+                    <p>Protect your valuable credentials with Passcode Vault, a secure and encrypted vault designed to store passwords, login details, and sensitive information effortlessly.</p>
+                    
+                    <div class="app-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-lock"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Secure Credential Storage</h4>
+                                <p>Store passwords, login details, and sensitive information with end-to-end encryption, ensuring maximum security and privacy.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-thumbs-up"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Seamless Access and Organization</h4>
+                                <p>Effortlessly organize and access your credentials through an intuitive and user-friendly interface.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Advanced Protection and Backup</h4>
+                                <p>Ensure data protection with multi-factor authentication and automated backups for peace of mind.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="app-links"> 
+                        
+                        <a href="https://play.google.com/store/apps/details?id=com.passcode.manager" class="app-store-link">
+                            <i class="fab fa-google-play"></i>
+                            <span>Google Play</span>
+                        </a>
+                        <a href="https://github.com/byAtulJain/Passcode-Vault" class="app-store-link">
+                            <i class="fab fa-github"></i>
+                            <span>Source Code</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="showcase-device reveal-right">
+                    <div class="phone-mockup">
+                        <div class="phone-frame">
+                            <div class="phone-screen">
+                                <div class="app-screens">
+                                    <div class="app-screen active">
+                                        <img src="images\latest-app\1.png" alt="TaskMaster Pro - Dashboard">
+                                    </div>
+                                    <div class="app-screen">
+                                        <img src="images\latest-app\2.png" alt="TaskMaster Pro - Task List">
+                                    </div>
+                                    <div class="app-screen">
+                                        <img src="images\latest-app\3.png" alt="TaskMaster Pro - Analytics">
+                                    </div>
+                                </div>
+                                <div class="screen-pagination">
+                                    <span class="screen-dot active"></span>
+                                    <span class="screen-dot"></span>
+                                    <span class="screen-dot"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical Skills</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="skills-grid" id="skills-grid">
+                <!-- Skills will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-header">
+                <!-- <span class="section-subtitle">Get In Touch</span> -->
+                <h2>Contact Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info reveal-left">
+                    <h3>Let's Talk About Your Needs</h3>
+                    <p>
+                        I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision. Feel free to reach out using the form or through my social media profiles.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>atuljain3003@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Indore, India</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>@byAtulJain</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/byAtulJain" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/byatuljain/" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:atuljain3003@gmail.com" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                <div class="contact-form-container reveal-right">
+                    <div class="card">
+                        <div class="card-body">
+                            <div id="form-success" class="form-success">
+                                <i class="fas fa-check-circle"></i>
+                                <h4>Message Sent Successfully!</h4>
+                                <p>Thank you for reaching out. I'll get back to you as soon as possible.</p>
+                            </div>
+                            <form id="contact-form" class="contact-form" action="https://formspree.io/f/xdkekbdb" method="POST">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="name">Full Name</label>
+                                        <div class="input-group">
+                                            <div class="input-icon">
+                                                <i class="fas fa-user"></i>
+                                            </div>
+                                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email Address</label>
+                                        <div class="input-group">
+                                            <div class="input-icon">
+                                                <i class="fas fa-envelope"></i>
+                                            </div>
+                                            <input type="email" id="email" name="email" placeholder="Your email" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">Subject</label>
+                                    <div class="input-group">
+                                        <div class="input-icon">
+                                            <i class="fas fa-bookmark"></i>
+                                        </div>
+                                        <input type="text" id="subject" name="subject" placeholder="Subject of your message" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <div class="input-group">
+                                        <div class="input-icon textarea-icon">
+                                            <i class="fas fa-comment-alt"></i>
+                                        </div>
+                                        <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block">
+                                    <span id="submit-text">Send Message</span>
+                                    <span id="submit-loading" class="loading-spinner"></span>
+                                </button>
+                            </form>
+                            <div id="popup-message" class="popup-message hidden">
+                                <p>Thank you! Your message has been sent successfully.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <h3>Atul<span class="highlight"> </span>Jain</h3>
+                        <p>Creating exceptional digital experiences through innovative application development.</p>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <h4>Contact Info</h4>
+                        <ul>
+                            <li><i class="fas fa-envelope"></i> atuljain3003@gmail.com</li>
+                            <li><i class="fas fa-phone"></i> +91 8962490765</li>
+                            <li><i class="fas fa-map-marker-alt"></i> Indore, India</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© <span id="current-year"></span> Atul Jain. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/byAtulJain"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/byatuljain/"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:atuljain3003@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="back-to-top" id="back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
