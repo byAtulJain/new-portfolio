@@ -414,7 +414,7 @@ const projects = [
         button1: {
             icon: "fas fa-play", // FontAwesome or custom icon class
             text: "Coming Soon",
-            link: "#"
+            link: "https://play.google.com/store/apps/details?id=com.kpvs.app.kpvs"
         },
         button2: {
             icon: "fab fa-github", // FontAwesome or custom icon class
