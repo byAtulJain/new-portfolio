@@ -413,7 +413,7 @@ const projects = [
 
         button1: {
             icon: "fas fa-play", // FontAwesome or custom icon class
-            text: "Coming Soon",
+            text: "Play Store",
             link: "https://play.google.com/store/apps/details?id=com.kpvs.app.kpvs"
         },
         button2: {
