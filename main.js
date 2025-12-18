@@ -370,6 +370,23 @@ function animateSkillProgress() {
 
 // Project Data
 const projects = [
+     {
+        title: "SwitchIt Sales",
+        category: "mobile",
+        description: "This app is designed to make the sales process smarter, faster, and more transparent — ensuring accurate order taking and seamless coordination between the field and warehouse teams.",
+        image: "images/projects/switchit.png",
+        technologies: ["Flutter", "Dart" ,"Firebase", "MVVM", "API Integration"],
+        button1: {
+            icon: "fas fa-play", // FontAwesome or custom icon class
+            text: "Play Store",
+            link: "https://play.google.com/store/apps/details?id=com.switchit.sales.switchit_sales"
+        },
+        button2: {
+            icon: "fab fa-github", // FontAwesome or custom icon class
+            text: "Source Code",
+            link: "https://github.com/byAtulJain"
+        }
+    },
     {
         title: "SwitchIt Sales",
         category: "mobile",
@@ -430,8 +447,8 @@ const projects = [
 
         button1: {
             icon: "fas fa-play", // FontAwesome or custom icon class
-            text: "Coming Soon",
-            link: "#"
+            text: "Play Store",
+            link: "https://play.google.com/store/apps/details?id=com.kpvs.app.kpvs"
         },
         button2: {
             icon: "fab fa-github", // FontAwesome or custom icon class
