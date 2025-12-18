@@ -371,6 +371,23 @@ function animateSkillProgress() {
 // Project Data
 const projects = [
     {
+        title: "SwitchIt Sales",
+        category: "mobile",
+        description: "This app is designed to make the sales process smarter, faster, and more transparent — ensuring accurate order taking and seamless coordination between the field and warehouse teams.",
+        image: "images/projects/switchit.png",
+        technologies: ["Flutter", "Dart" ,"Firebase", "MVVM", "API Integration"],
+        button1: {
+            icon: "fas fa-play", // FontAwesome or custom icon class
+            text: "Play Store",
+            link: "https://play.google.com/store/apps/details?id=com.switchit.sales.switchit_sales"
+        },
+        button2: {
+            icon: "fab fa-github", // FontAwesome or custom icon class
+            text: "Source Code",
+            link: "https://github.com/byAtulJain"
+        }
+    },
+    {
         title: "Mandisetu",
         category: "mobile",
         description: "Mandisetu is a one-stop solution for farmers, traders, wholesalers, retailers, and mandivyaparis to seamlessly buy and sell agricultural and agro-produce commodities.",
