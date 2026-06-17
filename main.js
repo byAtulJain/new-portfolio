@@ -370,7 +370,41 @@ function animateSkillProgress() {
 
 // Project Data
 const projects = [
-     {
+    {
+        title: "Relact - Smart Contact Manager",
+        category: "mobile",
+        description: "Take control of your phonebook with Relact, the intelligent contact manager designed for privacy, organization, and efficiency.",
+        image: "images/projects/relact.png",
+        technologies: ["Flutter", "Dart" ,"Firebase", "Postgres DB", "MVVM", "Fast API", "Python",],
+        button1: {
+            icon: "fas fa-play", // FontAwesome or custom icon class
+            text: "Play Store",
+            link: "https://play.google.com/store/apps/details?id=com.relact.relact"
+        },
+        button2: {
+            icon: "fab fa-github", // FontAwesome or custom icon class
+            text: "Source Code",
+            link: "https://github.com/byAtulJain"
+        }
+    },
+    {
+        title: "MK All Network Communications",
+        category: "mobile",
+        description: "MK Networks is a simple and easy-to-use SIM management app designed to help users handle daily field operations in one place",
+        image: "images/projects/mknetworks.png",
+        technologies: ["Flutter", "Dart" ,"Firebase", "MVVM", "API Integration",],
+        button1: {
+            icon: "fas fa-play", // FontAwesome or custom icon class
+            text: "Play Store",
+            link: "https://play.google.com/store/apps/details?id=com.relact.relact"
+        },
+        button2: {
+            icon: "fab fa-github", // FontAwesome or custom icon class
+            text: "Source Code",
+            link: "https://github.com/byAtulJain"
+        }
+    },
+    {
         title: "SwitchIt Sales",
         category: "mobile",
         description: "This app is designed to make the sales process smarter, faster, and more transparent — ensuring accurate order taking and seamless coordination between the field and warehouse teams.",
@@ -434,9 +468,9 @@ const projects = [
             link: "https://play.google.com/store/apps/details?id=com.kpvs.app.kpvs"
         },
         button2: {
-            icon: "fab fa-github", // FontAwesome or custom icon class
-            text: "Source Code",
-            link: "https://github.com/byAtulJain"
+            icon: "fab fa-apple", // FontAwesome or custom icon class
+            text: "App Store",
+            link: "https://apps.apple.com/us/app/kalpvriksha/id6757429527"
         }
     },
     {
